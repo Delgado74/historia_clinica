@@ -1,0 +1,59 @@
+name: historia_clinica_digital
+description: Aplicación para gestionar historias clínicas de pacientes de forma local y sin conexión a internet.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # -------------------------------
+  # 📦 DEPENDENCIAS PRINCIPALES
+  # -------------------------------
+
+  # Base de datos SQLite
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.2.2
+  path: ^1.9.0
+  path_provider: ^2.1.3
+
+  # Selector de archivos (importar DB)
+  file_picker: ^8.1.2
+
+  # Compartir archivos (exportar DB)
+  share_plus: ^10.1.0
+  file_selector: ^0.9.0
+
+  # Lanzar correos o enlaces desde "Acerca de"
+  url_launcher: ^6.3.0
+
+  # Soporte para Material Design
+  flutter_localizations:
+    sdk: flutter
+
+  # Manejo de fechas y formatos
+  intl: ^0.20.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.2
+  flutter_launcher_icons: ^0.11.0
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/icon.png
+
+flutter_icons:
+   android: true
+   ios: true
+   windows: true
+   linux: true
+   macos: true
+   image_path: "assets/icons/icon.png"

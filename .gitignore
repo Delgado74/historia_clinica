@@ -1,0 +1,34 @@
+# Archivos generados por Flutter/Dart
+.dart_tool/
+.packages
+.flutter-plugins
+.flutter-plugins-dependencies
+.metadata
+flutter_*.png
+*.lock
+
+# Archivos de configuración local (entorno)
+.env
+*.env
+
+# Archivos específicos de IDE (VS Code, Android Studio, etc.)
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+
+# Build y dependencias
+build/
+android/app/debug/
+ios/Flutter/flutter_export_environment.sh
+
+# Firebase y configuración sensible
+google-services.json
+GoogleService-Info.plist
+**/key.properties
+**/key.jks
+
+# Archivos temporales y logs
+*.log
+*.tmp
